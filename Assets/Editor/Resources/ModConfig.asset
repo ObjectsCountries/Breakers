@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: module
-  title: Module
+  id: breakers
+  title: Breakers
   author: ObjectsCountries
   description: 'Flavor text here.
 
 
-    ID: module
+    ID: breakers
 
     Credits: me because i am awesome and cool and stuff
 
@@ -26,6 +26,6 @@ MonoBehaviour:
 
     [url=http://ktane.timwi.de/PDF/Module.html]PDF Manual[/url]'
   version: 1
-  outputFolder: C:\Program Files (x86)\Steam\steamapps\common\Keep Talking and Nobody
-    Explodes\mods
+  outputFolder: /home/kasra/.local/share/Steam/steamapps/common/Keep Talking and Nobody
+    Explodes/mods
   previewImage: {fileID: 0}
