@@ -16,52 +16,42 @@
 				<span class="page-header-section-title">Breakers</span>
 			</div>
 			<div class="page-content">
-			<img src="img/Breakers.svg" class="diagram">
+			<img src="img/Component/Breakers.svg" class="diagram">
 				<h2>On the Subject of Breakers</h2>
 				<p class="flavour-text">Oh no, did I break something?</p>			
-				<ul style="font-size: .93rem">
-					<li>You must flip all the breakers to the right.
-					<li>The black breakers may be flipped at any time.
-					<li>Only flip the colorful breakers when the black breakers are in the proper positions. Order the breakers top to bottom.
-					<li>Use the first table below to determine the positions the black breakers must be in before flipping a colorful breaker. R for right, L for left.
-					<li>From the starting position, flip the black breakers back and forth according the the criteria listed below before flipping the respective breaker.
+				<ul>
+					<li>You must flip all of the breakers to the right.</li>
+					<li>The black breakers may be flipped at any time.</li>
+					<li>Only flip the colorful breakers when the black breakers are in the proper positions. Order the breakers top to bottom.</li>
+					<li>Use the first table below to determine the positions the black breakers must be in before flipping a colorful breaker; R for right, L for left.</li>
+					<li>From the starting position, flip the black breakers back and forth according the the criteria listed below before flipping the respective colorful breaker.</li>
 				</ul>
-				<div style="font-size: .93rem"><h3>Starting Position</h3>
-					<div style="font-size: 0.4rem;"><br></div>
-					<table width="100%;"><tr height="60" align="center" style="font-size: .9rem">
-						<td width="20%;">Color of<br>the Breaker<td colspan=5>Highest Digit in the Serial Number<div style="font-size: 0.2rem;"><br></div>
-							<div style="float: left; width: 18%;">0-4</div>
-							<div style="float: left; width: 23%;">5-6</div>
-							<div style="float: left; width: 18%;">7</div>
-							<div style="float: left; width: 24%;">8</div>
-							<div style="float: left; width: 17%;">9</div>
-						<tr height="40" align="center"><td style="font-size: .85rem">RED   <td><strong>RLLL<td><strong>LLLR<td><strong>RLRR<td><strong>RRRL<td><strong>RLRL
-						<tr height="40" align="center"><td style="font-size: .85rem">BLUE  <td><strong>LLLL<td><strong>RRLL<td><strong>LRLR<td><strong>LRRL<td><strong>LLRL
-						<tr height="40" align="center"><td style="font-size: .85rem">GREEN <td><strong>LRRR<td><strong>LLRR<td><strong>RLLR<td><strong>LRLL<td><strong>RRLR
-						<tr height="40" align="center"><td style="font-size: .85rem">YELLOW<td><strong>RRLR<td><strong>LRRL<td><strong>LLRL<td><strong>RLRR<td><strong>LRLR
-					</table>
-				</div>
-				<div style="font-size: .93rem">
-					<h3>First Color Breaker</h3>
-					For each <strong>G, E, 4,</strong> or <strong>9</strong> in the serial number, flip the first black breaker.<br>
-					For each <strong>N, Y, 5,</strong> or <strong>6</strong> in the serial number, flip the second black breaker.<br>
-					For each <strong>T, D, 2,</strong> or <strong>3</strong> in the serial number, flip the third black breaker.<br>
-					For each <strong>C, L, 7,</strong> or <strong>8</strong> in the serial number, flip the fourth black breaker.<br>
-				</div>
-				<div style="font-size: .93rem">
-					<h3>Second Color Breaker</h3>
-					For each <strong>Q, U, 2,</strong> or <strong>8</strong> in the serial number, flip the first black breaker.<br>
-					For each <strong>Z, P, 3,</strong> or <strong>7</strong> in the serial number, flip the second black breaker.<br>
-					For each <strong>V, H, 4,</strong> or <strong>5</strong> in the serial number, flip the third black breaker.<br>
-					For each <strong>W, B, 6,</strong> or <strong>9</strong> in the serial number, flip the fourth black breaker.<br>
-				</div>
-				<div style="font-size: .93rem">
-					<h3>Third Color Breaker</h3>
-					For each <strong>J, R, 6,</strong> or <strong>7</strong> in the serial number, flip the first black breaker.<br>
-					For each <strong>X, M, 2,</strong> or <strong>9</strong> in the serial number, flip the second black breaker.<br>
-					For each <strong>K, A, 5,</strong> or <strong>8</strong> in the serial number, flip the third black breaker.<br>
-					For each <strong>S, F, 3,</strong> or <strong>4</strong> in the serial number, flip the fourth black breaker.<br>
-				</div>
+				<h3>Starting Position</h3>
+				<table width="100%" style="text-align:center"><thead><tr>
+					<th width="20%" rowspan=2>Color of the Breaker</th><th colspan=5 style="border-bottom:hidden">Highest Digit in the Serial Number</th>
+					</tr>
+					<tr style="border-top:hidden"><td style="border-right:hidden">0-4</td><td style="border-left:hidden;border-right:hidden">5-6</td><td style="border-left:hidden;border-right:hidden">7</td><td style="border-left:hidden;border-right:hidden">8</td><td style="border-left:hidden">9</td></tr>
+					</thead>
+					<tbody>
+					<tr><td style="background-color:red">Red</td><td>RLLL</td><td>LLLR</td><td>RLRR</td><td>RRRL</td><td>RLRL</td>
+					<tr><td style="background-color:blue">Blue</td><td>LLLL</td><td>RRLL</td><td>LRLR</td><td>LRRL</td><td>LLRL</td>
+					<tr><td style="background-color:green">Green</td><td>LRRR</td><td>LLRR</td><td>RLLR</td><td>LRLL</td><td>RRLR</td>
+					<tr><td style="background-color:yellow">Yellow</td><td>RRLR</td><td>LRRL</td><td>LLRL</td><td>RLRR</td><td>LRLR</td>
+					</tbody>
+				</table>
+				<h3>Further Adjustments</h3>
+				<table width="50%" style="text-align:center;float:right;margin-top:10px;margin-left:20px;margin-bottom:10px">
+					<thead>
+						<tr><th width="10%" rowspan=2>Colorful Breaker</th><th colspan=4 style="border-bottom:hidden">Black Breaker</th></tr>
+						<tr style="border-top:hidden"><td style="border-right:hidden">1st</td><td style="border-left:hidden;border-right:hidden">2nd</td><td style="border-left:hidden;border-right:hidden">3rd</td><td style="border-left:hidden">4th</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1st</td><td>EG49</td><td>IN56</td><td>DT23</td><td>CL78</td></tr>
+						<tr><td>2nd</td><td>QU28</td><td>PZ37</td><td>HV45</td><td>BW69</td></tr>
+						<tr><td>3rd</td><td>JR67</td><td>MX29</td><td>KA58</td><td>SF34</td></tr>
+					</tbody>
+				</table>
+				<p>After each initial position has been obtained, adjust the breakers further using the table to the right. Use the location in the table of each character in the serial number to flip certain black breakers. Any given black breaker can be flipped multiple times during this process.</p>
 			</div>
 			<div class="page-footer relative-footer">Page 1 of 1</div>
 		</div>
