@@ -19,6 +19,7 @@ public class _breakersScript:ModdedModule{
     public KMBombInfo bomb;
     private string serial;
     private int highestDigit;
+    private bool allBreakersToRight=false;
     private bool[,,]startingPositions=new bool[4,5,4]{
         {
             {true,false,false,false},
@@ -103,6 +104,9 @@ public class _breakersScript:ModdedModule{
 
     private IEnumerator flipBreaker(KMSelectable breaker,int index,bool isColorful){
         Shake(breaker,.5f,Sound.BigButtonPress);
+        if(allBreakersToRight)
+            yield break;
+        bool hasStruck=false;
         if((!isColorful&&!currentBlackPositions[index])||(isColorful&&!currentColorfulPositions[index])){
             for(int i=0;i<10;i++){
                 breaker.GetComponent<Transform>().Rotate(0f,0f,-9f);
@@ -128,22 +132,32 @@ public class _breakersScript:ModdedModule{
                     positionsIntended[i]=finalPositions[index,i]?"right":"left";
                 }
                 Strike("Strike! Flipped the "+ordinal+" breaker when the positions were "+string.Join(",", positionsWhenStruck)+". The correct positions are "+string.Join(",", positionsIntended));
+                Play(Sound.BigButtonPress);
+                for(int i=0;i<10;i++){
+                    breaker.GetComponent<Transform>().Rotate(0f,0f,9f);
+                    yield return null;
+                }
+                hasStruck=true;
             }
-            for(int i=0;i<10;i++){
-                breaker.GetComponent<Transform>().Rotate(0f,0f,9f);
-                yield return null;
-            }
-            currentColorfulPositions[index]=!currentColorfulPositions[index];
         }else if((!isColorful&&currentBlackPositions[index])||(isColorful&&currentColorfulPositions[index])){
             for(int i=0;i<10;i++){
                 breaker.GetComponent<Transform>().Rotate(0f,0f,9f);
                 yield return null;
             }
         }
-        if(isColorful)
+        if(isColorful&&!hasStruck)
             currentColorfulPositions[index]=!currentColorfulPositions[index];
-        else
+        else if(!isColorful)
             currentBlackPositions[index]=!currentBlackPositions[index];
+        allBreakersToRight=true;
+        for(int i=0;i<4;i++){
+            if(!currentBlackPositions[i]||(i<3&&!currentColorfulPositions[i])){
+                allBreakersToRight=false;
+                break;
+            }
+        }
+        if(allBreakersToRight)
+            Solve("All breakers have been flipped to the right! The module is now solved!");
     }
 
     private bool colorfulBreakerCanBeFlipped(int colorfulBreakerPosition){

@@ -14,17 +14,17 @@ MonoBehaviour:
   id: breakers
   title: Breakers
   author: ObjectsCountries
-  description: 'Flavor text here.
+  description: 'Oh no, did I break something?
 
 
     ID: breakers
 
-    Credits: me because i am awesome and cool and stuff
+    Credits: Maelztrom for the idea, me (ObjectsCountries) for the development
 
 
-    [url=http://ktane.timwi.de/HTML/Module.html]HTML Manual[/url]
+    [url=http://ktane.timwi.de/HTML/Breakers.html]HTML Manual[/url]
 
-    [url=http://ktane.timwi.de/PDF/Module.html]PDF Manual[/url]'
+    [url=http://ktane.timwi.de/PDF/Breakers.html]PDF Manual[/url]'
   version: 1
   outputFolder: /home/kasra/.local/share/Steam/steamapps/common/Keep Talking and Nobody
     Explodes/mods
