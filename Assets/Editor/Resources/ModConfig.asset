@@ -19,13 +19,13 @@ MonoBehaviour:
 
     ID: breakers
 
-    Credits: Maelztrom for the idea, me (ObjectsCountries) for the development
+    Credits: Maelztrom for the idea, ObjectsCountries for the development
 
 
     [url=http://ktane.timwi.de/HTML/Breakers.html]HTML Manual[/url]
 
     [url=http://ktane.timwi.de/PDF/Breakers.html]PDF Manual[/url]'
   version: 1
-  outputFolder: /home/kasra/.local/share/Steam/steamapps/common/Keep Talking and Nobody
-    Explodes/mods
+  outputFolder: /home/objectscountries/.local/share/Steam/steamapps/common/Keep Talking
+    and Nobody Explodes/mods
   previewImage: {fileID: 0}

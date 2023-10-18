@@ -605,6 +605,7 @@ GameObject:
   - component: {fileID: 114895395596789256}
   - component: {fileID: 114680600843336508}
   - component: {fileID: 114117675368898622}
+  - component: {fileID: 114631455765081764}
   m_Layer: 0
   m_Name: Breakers
   m_TagString: Untagged
@@ -1300,7 +1301,7 @@ Transform:
   m_GameObject: {fileID: 1630804019092496}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4379256588998292}
   m_RootOrder: 2
@@ -1329,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 1611849084159786}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4352336524184102}
   m_RootOrder: 1
@@ -1355,7 +1356,7 @@ Transform:
   m_GameObject: {fileID: 1545764805185168}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4341632267202388}
   m_RootOrder: 3
@@ -1368,7 +1369,7 @@ Transform:
   m_GameObject: {fileID: 1436491516730144}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4222279172031284}
   m_RootOrder: 1
@@ -1381,7 +1382,7 @@ Transform:
   m_GameObject: {fileID: 1800938233065522}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4775601397086726}
   m_RootOrder: 3
@@ -1408,7 +1409,7 @@ Transform:
   m_GameObject: {fileID: 1486551543181604}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4379256588998292}
   m_RootOrder: 1
@@ -1552,7 +1553,7 @@ Transform:
   m_GameObject: {fileID: 1263887962483566}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4603923287470758}
   m_RootOrder: 1
@@ -1641,7 +1642,7 @@ Transform:
   m_GameObject: {fileID: 1433906529027990}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4341632267202388}
   m_RootOrder: 1
@@ -1667,7 +1668,7 @@ Transform:
   m_GameObject: {fileID: 1005663514531046}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4352336524184102}
   m_RootOrder: 2
@@ -1736,7 +1737,7 @@ Transform:
   m_GameObject: {fileID: 1322782932668976}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4603923287470758}
   m_RootOrder: 3
@@ -1749,7 +1750,7 @@ Transform:
   m_GameObject: {fileID: 1012582810214188}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4775601397086726}
   m_RootOrder: 1
@@ -1833,7 +1834,7 @@ Transform:
   m_GameObject: {fileID: 1125254881242118}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4285289445817084}
   m_RootOrder: 3
@@ -1957,7 +1958,7 @@ Transform:
   m_GameObject: {fileID: 1730430308127192}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4285289445817084}
   m_RootOrder: 2
@@ -1970,7 +1971,7 @@ Transform:
   m_GameObject: {fileID: 1272675360447854}
   m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0075}
-  m_LocalScale: {x: 0.04, y: 0.003, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 0.002, z: 0.04}
   m_Children: []
   m_Father: {fileID: 4222279172031284}
   m_RootOrder: 2
@@ -2341,7 +2342,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 87e6e2009c503428b9144a38bc9fdf3c, type: 2}
+  - {fileID: 2100000, guid: eac4b15aab0dd4fc08cebe5316139ea5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2987,7 +2988,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 82832a201638c455bb8349637b52950f, type: 2}
+  - {fileID: 2100000, guid: e9c2dbf58e5874a92a570baaed03592b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3293,7 +3294,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 82832a201638c455bb8349637b52950f, type: 2}
+  - {fileID: 2100000, guid: e9c2dbf58e5874a92a570baaed03592b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3361,7 +3362,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 87e6e2009c503428b9144a38bc9fdf3c, type: 2}
+  - {fileID: 2100000, guid: eac4b15aab0dd4fc08cebe5316139ea5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4927,6 +4928,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
+--- !u!114 &114631455765081764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1525662207606286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865fb77e8da534edf895f8e909ae1906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TwitchHelpMessage: 'Use 4-letter strings of L and R to flip the black breakers,
+    and numbers 1-3 to flip the colorful breakers. Be sure to add RRRR to the end
+    to solve. Example: !{0} LRLR 1 RRLL 2 LRLL 3 RRRR'
+  TwitchManualCode: 
+  TwitchAbandonModule: []
 --- !u!114 &114638334375465570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5006,14 +5023,15 @@ MonoBehaviour:
   Parent: {fileID: 0}
   Children:
   - {fileID: 114876573539874076}
+  - {fileID: 0}
   - {fileID: 114928120984107118}
-  - {fileID: 114066025538696388}
-  - {fileID: 114293136025070184}
   - {fileID: 114766849435397128}
+  - {fileID: 114066025538696388}
   - {fileID: 114894555624071812}
+  - {fileID: 114293136025070184}
   - {fileID: 114330212573567568}
   IsPassThrough: 0
-  ChildRowLength: 0
+  ChildRowLength: 2
   Highlight: {fileID: 114182519820662484}
   SelectableColliders: []
   DefaultSelectableIndex: 0

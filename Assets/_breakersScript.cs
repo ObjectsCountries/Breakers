@@ -10,9 +10,9 @@ using KModkit;
 public class _breakersScript:ModdedModule{
 
     public Material[]colors;
-    private bool[,]finalPositions=new bool[3,4];
-    private bool[]currentBlackPositions=new bool[4]{false,false,false,false};
-    private bool[]currentColorfulPositions=new bool[3]{false,false,false};
+    internal bool[,]finalPositions=new bool[3,4];
+    internal bool[]currentBlackPositions=new bool[4]{false,false,false,false};
+    internal bool[]currentColorfulPositions=new bool[3]{false,false,false};
     public KMSelectable[]blackBreakers;
     public KMSelectable[]colorfulBreakers;
     public MeshRenderer[]colorfulHandles;
