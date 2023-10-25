@@ -40,17 +40,11 @@ public class _breakersTP:Twitch<_breakersScript>{
                 }
             }
             else{
-                yield return TwitchString.SendToChatError("{0}, your command has been processed up until the invalid input. Please read the help message to understand input syntax.");
+                yield return TwitchString.SendToChatError("{0}, has not been processed due to an invalid input. Please read the help message to understand input syntax.");
             }
         }
-        foreach(KMSelectable breaker in endResult){
-            Module.Log(breaker); // debug
-        }
-        for(int i=0;i<4;i++){
-            Module.Log(tempBlack[i]+", "+Module.currentBlackPositions[i]); // debug
-        }
         yield return null;
-        yield return new Instruction(Sequence(endResult,.25f));
+        yield return new Instruction(Sequence(endResult,2f));
     }
 
     public override IEnumerable<Instruction>ForceSolve(){

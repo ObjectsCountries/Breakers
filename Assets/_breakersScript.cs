@@ -16,7 +16,9 @@ public class _breakersScript:ModdedModule{
     public KMSelectable[]blackBreakers;
     public KMSelectable[]colorfulBreakers;
     public MeshRenderer[]colorfulHandles;
+    public TextMesh colorblindText;
     public KMBombInfo bomb;
+    public KMColorblindMode colorblind;
     private string serial;
     private int highestDigit;
     private bool allBreakersToRight=false;
@@ -170,6 +172,7 @@ public class _breakersScript:ModdedModule{
 
     private void colorBreakersIn(){
         string[]colorNames=new string[]{"red","blue","green","yellow"};
+        char[]colorLetters=new char[]{'R','B','G','Y'};
         int color1=UnityEngine.Random.Range(0,4);
         int color2;
         do{
@@ -182,6 +185,10 @@ public class _breakersScript:ModdedModule{
         colorfulHandles[0].material=colors[color1];
         colorfulHandles[1].material=colors[color2];
         colorfulHandles[2].material=colors[color3];
+        if(colorblind.ColorblindModeActive){
+            colorblindText.gameObject.SetActive(true);
+            colorblindText.text=""+colorLetters[color1]+colorLetters[color2]+colorLetters[color3];
+        }
         Log("The colorful breakers are "+colorNames[color1]+", "+colorNames[color2]+", and "+colorNames[color3]+" from top to bottom.");
         calculateFinalPositions(color1,color2,color3);
     }
